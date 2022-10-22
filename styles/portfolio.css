@@ -4,6 +4,7 @@
   --branding-color: #6c63ff;
   --background-color: #f9f7fe;
 }
+
 p {
   font-family: var(--default-font-family);
 }
@@ -17,7 +18,7 @@ h6 {
   font-weight: bold;
 }
 .greeting {
-  padding: 160px;
+  padding: 120px;
   text-align: center;
   background-color: var(--background-color);
 }
@@ -55,6 +56,9 @@ h6 {
   font-size: 18px;
   line-height: 27px;
 }
+.btn-branding:hover {
+  border-color: var(--branding-color);
+}
 .featured {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -69,11 +73,33 @@ h6 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-outline:hover {
+  background-color: var(--branding-color);
+}
 .project {
   font-size: 58px;
 }
 .social-media {
+  color: var(--branding-color);
   background-color: var(--background-color);
+  margin: 0 15px;
+  padding: 14px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 1;
+  text-size-adjust: 70%;
+  transition: all 150ms ease-in-out;
+}
+.inquiry {
+  background-color: var(--background-color);
+  padding: 25px 110px;
+  margin: 25px 145px;
+  border-radius: 10px;
+}
+.footer {
+  text-align: center;
+  font-family: var(--default-font-family);
+  font-size: 14px;
 }
 @media (max-width: 900px) {
   h1 {
