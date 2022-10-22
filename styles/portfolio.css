@@ -21,6 +21,13 @@ h6 {
   text-align: center;
   background-color: var(--background-color);
 }
+.about-section {
+  padding: 100px;
+}
+.about h1 {
+  font-size: 64px;
+  line-height: 1, 5;
+}
 .greeting h1 {
   font-size: 96px;
   font-weight: bold;
