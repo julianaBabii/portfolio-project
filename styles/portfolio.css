@@ -4,6 +4,9 @@
   --branding-color: #6c63ff;
   --background-color: #f9f7fe;
 }
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
 
 p {
   font-family: var(--default-font-family);
@@ -18,12 +21,12 @@ h6 {
   font-weight: bold;
 }
 .greeting {
-  padding: 120px;
+  padding: 100px;
   text-align: center;
   background-color: var(--background-color);
 }
 .content-container {
-  padding: 100px;
+  padding: 120px;
 }
 .content h1 {
   font-size: 64px;
